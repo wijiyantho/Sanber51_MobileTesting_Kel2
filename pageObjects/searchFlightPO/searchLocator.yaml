@@ -1,0 +1,4 @@
+click-search: '//*[@resource-id="com.example.myapplication:id/search_flight"]'
+input-search: '//*[@resource-id="com.example.myapplication:id/flight_number"]'
+btn-search: '//*[@resource-id="com.example.myapplication:id/searchFlight"]'
+click-sign-out: '//*[@resource-id="com.example.myapplication:id/login"]'
