@@ -1,3 +1,71 @@
 Test Case to do
 
-Login
+1. Sign In
+2. Sign Out
+3. Search Flight
+4. Book Flight
+
+### Test Case Sign In ###
+
+A. Positive Case
+----------------
+1. Open Application
+2. Click Sign In element
+3. Insert Username (Valid Username = 'support@ngendigital.com')
+4. Insert Password (Valid Password = 'abc123')
+5. Click Sign In button
+6. Close Application
+
+B. Negative Case
+----------------
+1. Open Application
+2. Click Sign In element
+3. Insert Username (InValid Username = 'support@digital.com')
+4. Insert Password (InValid Password = 'abcd12')
+5. Click Sign In button
+6. Close Application
+
+### Test Case Sign Out ###
+
+1. Open Application
+2. Click Sign In element
+3. Insert Username (Valid Username = 'support@ngendigital.com')
+4. Insert Password (Valid Password = 'abc123')
+5. Click Sign In button
+6. Move to New page
+7. Click Sign Out element
+8. Close Application
+
+### Test Case Search Flight ###
+
+1. Open Application
+2. Click Sign In element
+3. Insert Username (Valid Username = 'support@ngendigital.com')
+4. Insert Password (Valid Password = 'abc123')
+5. Click Sign In button
+6. Move to New page
+7. Click Search element
+8. Move to New page
+9. Insert Flight number (Valid Flight number = 'DA935')
+10. Click Search button
+11. Close Application
+
+### Test Case Book Flight ###
+
+1. Open Application
+2. Click Sign In element
+3. Insert Username (Valid Username = 'support@ngendigital.com')
+4. Insert Password (Valid Password = 'abc123')
+5. Click Sign In button
+6. Move to New page
+7. Click Book element
+8. Move to New page
+9. Choose the trip ('one way' or 'round trip')
+10. Click 'From' and choose 'Chicago'
+11. Click 'To' and choose 'Paris'
+12. Click 'Class' and choose 'Business'
+13. Click 'Start Date' and choose any Date
+14. Click 'End Date' and choose any Date
+15. Click 'Option' and choose 'Flight+Hotel'
+16. Click Book Flight button
+17. Close Application
