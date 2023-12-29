@@ -9,6 +9,7 @@ ${VALID_PSWD}           abc123
 ${VALID_FLIGHT}         DA935
 ${INVALID_FLIGHT}       LI735
 
+
 *** Test Cases ***
 Search Valid Credential
     Open Flight Application
